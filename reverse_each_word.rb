@@ -1,4 +1,5 @@
-def reverse_each_word
+def reverse_each_word(phrase)
   reversed = []
-  words = 
+  words = phrase.split
+  words.map { |word| reversed << word.reversed }
 end
