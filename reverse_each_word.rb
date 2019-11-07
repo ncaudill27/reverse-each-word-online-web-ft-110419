@@ -1,5 +1,5 @@
 def reverse_each_word(phrase)
   words = phrase.split
-  reversed = words.map { |word| word.reverse }
+  reversed = words.collect { |word| word.reverse }
   final = reversed.join(" ")
 end
